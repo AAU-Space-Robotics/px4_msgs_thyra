@@ -4,7 +4,7 @@
 # These are populated from power module and smart battery device drivers, and one battery updated from MAVLink.
 # Battery instance information is also logged and streamed in MAVLink telemetry.
 
-uint32 MESSAGE_VERSION = 1
+uint32 MESSAGE_VERSION = 0
 uint8 MAX_INSTANCES = 3
 
 uint64 timestamp  # [us] Time since system start
